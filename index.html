@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <!--Order list using Roman numerals-->
+    <ol type="I">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ol>
+    <!--image-->
+    <img src="image/image1.jpg" alt="Beautiful nature" width="300">
+    <!--contact table-->
+    <table border="1">
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Menye Ewodo</td>
+                <td>Buea</td>
+                <td>+237 652897890</td>
+                <td>germaine19@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Registration form-->
+    <form action="#" method="post">
+        <h1>Register</h1>
+        <!--Name filed-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+        <!--Email field-->
+       <label for ="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+        <!--Password-->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="enter your password" required><br><br>
+        <!--Date of Birth-->
+        <label for="dob">Date of Birth:</label>
+        <input type="data" id="dob" name="dob" required><br><br>
+
+        <!--Dropdown-->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="cameroon">Cameroon</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="kenya">Kenya</option>
+            <option value="ghana">Ghana</option>
+        </select><br><br>
+        <!--Radio button-->
+        Gender:<br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+
+        <!--Checkout-->
+        Interests:<br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="design" name="interests" value="design">
+        <label for="design">Design</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br><br>
+
+        <!--Submit Botton-->
+        <button type="submit">Register</button>
+        <!--Audio Element-->
+        <h2>Welcome Message</h2>
+        <audio controls>
+            <source src="audio/sample.mp3" type="audio/mpeg">
+            Your browser does not support audio element.
+        </audio>
+
+        <!--Video Element-->
+        <h2>Intro Video</h2>
+        <video width="320" height="240" controls>
+            <source src="video/sample.mp4" type="video/mp4">
+            Your browser does not support video element.
+        </video>
+        </form>
+    </body>
+</html>
